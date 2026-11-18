@@ -1,0 +1,21 @@
+PORTFÓLIO MODERNO — MATHEUS SELIS
+
+Arquivos:
+- index.html: estrutura da página
+- style.css: aparência e responsividade
+- app.ts: código TypeScript do botão de tema
+- app.js: JavaScript pronto para o navegador
+- tsconfig.json: configuração do TypeScript
+
+COMO ABRIR:
+1. Extraia a pasta do ZIP.
+2. Abra a pasta no Visual Studio Code.
+3. Abra o arquivo index.html no navegador.
+
+PARA EDITAR:
+- No index.html, altere o texto de apresentação, projetos e contatos.
+- Substitua SEU_EMAIL_AQUI e os links de LinkedIn/GitHub pelos seus dados.
+- Para compilar o TypeScript depois de alterar app.ts, execute no terminal:
+  tsc
+
+O projeto usa HTML, CSS e TypeScript sem frameworks.
