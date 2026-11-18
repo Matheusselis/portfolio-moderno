@@ -19,3 +19,9 @@ PARA EDITAR:
   tsc
 
 O projeto usa HTML, CSS e TypeScript sem frameworks.
+
+PROJETOS E CONTATOS:
+- LinkedIn e GitHub já estão ligados na seção Contato; altere os hrefs no index.html se mudar de perfil.
+- O e-mail está desativado até substituir SEU_EMAIL_AQUI pelo endereço real.
+- Para ligar um cartão de projeto, preencha data-project-url="https://..." no article correspondente no index.html. O botão “Ver projeto” aparece automaticamente.
+- Código-fonte deste portfólio: https://github.com/Matheusselis/portfolio-moderno/tree/main

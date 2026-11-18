@@ -9,32 +9,32 @@
 </head>
 <body>
   <header class="topo">
-    <a class="marca" href="#inicio"><span class="codigo">&lt;/&gt;</span><span><strong>Matheus <em>Selis</em></strong><small>Desenvolvimento | TI</small></span></a>
-    <nav>
+    <a class="marca" href="#inicio" aria-label="Matheus Selis, início"><span class="codigo">MS</span><span><strong>Matheus Selis</strong><small>Desenvolvimento | TI</small></span></a>
+    <nav aria-label="Navegação principal">
       <a href="#inicio">Início</a><a href="#sobre">Sobre</a><a href="#habilidades">Habilidades</a><a href="#projetos">Projetos</a><a href="#contato">Contato</a>
     </nav>
+    <a class="contato-topo" href="#contato">↗ <span>Fale comigo</span></a>
     <button id="botaoTema" class="tema" aria-label="Alternar tema">☼</button>
   </header>
 
   <main>
     <section class="hero" id="inicio">
       <div class="hero-texto">
-        <p class="etiqueta">OLÁ, EU SOU O</p>
-        <h1>Matheus <span>Selis</span></h1>
+        <p class="etiqueta"><span></span> PORTFÓLIO <i>•</i> MATHEUS SELIS</p>
+        <h1>Matheus<br><span>Selis</span></h1>
         <p class="introducao">Apaixonado por tecnologia e cibersegurança, com interesse em desenvolvimento, infraestrutura, redes e segurança da informação.</p>
-        <div class="acoes"><a class="botao principal" href="#projetos">⌁ Ver projetos</a><a class="botao secundario" href="#contato">✉ Entre em contato</a></div>
+        <div class="acoes"><a class="botao principal" href="#projetos"><span aria-hidden="true">&lt;/&gt;</span> Ver projetos</a><a class="botao secundario" href="#sobre"><span aria-hidden="true">♙</span> Sobre mim</a></div>
         <p class="disponivel"><span></span> Sempre aprendendo e construindo coisas novas</p>
       </div>
-      <div class="hero-visual"><div class="janela"><div class="janela-topo"><i></i><i></i><i></i><span>meu-portfolio.ts</span></div><pre><span class="roxo">const</span> desenvolvedor = {
-  nome: <span class="verde">"Matheus Selis"</span>,
-  area: <span class="verde">"Tecnologia"</span>,
-  foco: [
-    <span class="verde">"Desenvolvimento"</span>,
-    <span class="verde">"Infraestrutura"</span>,
-    <span class="verde">"Segurança"</span>
-  ],
-  aprendendo: <span class="azul">true</span>
-};</pre></div><div class="orb orb-um"></div><div class="orb orb-dois"></div></div>
+      <div class="hero-visual" aria-hidden="true">
+        <svg class="rede-grafica" viewBox="0 0 620 470" role="presentation">
+          <defs><pattern id="grade" width="54" height="54" patternUnits="userSpaceOnUse"><path d="M54 0H0V54" fill="none" stroke="currentColor" stroke-opacity=".07"/></pattern></defs>
+          <rect width="620" height="470" fill="url(#grade)"/>
+          <g class="linhas-rede" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M105 92 248 38 391 103 520 37M105 92 105 245 248 314 391 245 391 103M248 38 248 174 391 245 520 320M105 245 36 357 248 420 391 245M248 174 520 37M391 103 520 205 520 320"/></g>
+          <path class="bloco-roxo" d="M520 205 620 148V301l-100 57z"/>
+          <g class="pontos-rede"><circle cx="105" cy="92" r="8"/><circle cx="248" cy="38" r="8"/><circle cx="391" cy="103" r="8"/><circle cx="520" cy="37" r="7"/><circle cx="105" cy="245" r="9"/><circle cx="248" cy="174" r="7"/><circle cx="391" cy="245" r="9"/><circle cx="520" cy="205" r="8"/><circle cx="248" cy="314" r="6"/><circle cx="520" cy="320" r="6"/><circle cx="36" cy="357" r="6"/><circle cx="248" cy="420" r="6"/></g>
+        </svg>
+      </div>
     </section>
 
     <section class="secao duas-colunas" id="sobre">
@@ -44,14 +44,14 @@
 
     <section class="secao projetos" id="projetos"><h2><b></b> Projetos</h2><p class="subtitulo">Alguns exercícios e projetos desenvolvidos durante meus estudos.</p>
       <div class="cards">
-        <article class="card"><div class="icone">▣</div><h3>Painel de Reações</h3><p>Página interativa com reações, contadores e mural de comentários, utilizando HTML, CSS e TypeScript.</p><span class="tag">HTML · CSS · TypeScript</span></article>
-        <article class="card"><div class="icone">▤</div><h3>Exercícios de lógica</h3><p>Prática de programação com funções, arrays, estruturas de repetição e resolução de problemas.</p><span class="tag">JavaScript · TypeScript</span></article>
-        <article class="card"><div class="icone">▦</div><h3>Modelagem de banco de dados</h3><p>Exercícios de relacionamentos entre tabelas, chaves primárias e estrangeiras no PostgreSQL.</p><span class="tag">SQL · PostgreSQL</span></article>
+        <article class="card" data-project-url=""><div class="icone reacoes" aria-hidden="true"><span>♥</span><span>✦</span><span>●</span></div><h3>Painel de Reações</h3><p>Página interativa com reações, contadores e mural de comentários, utilizando HTML, CSS e TypeScript.</p><span class="tag">HTML · CSS · TypeScript</span><a class="card-link" data-project-link hidden target="_blank" rel="noopener noreferrer">Ver projeto <span aria-hidden="true">↗</span></a></article>
+        <article class="card" data-project-url=""><div class="icone checklist" aria-hidden="true"><span>✓</span><i></i><span></span><i></i><span></span><i></i></div><h3>Exercícios de lógica</h3><p>Prática de programação com funções, arrays, estruturas de repetição e resolução de problemas.</p><span class="tag">JavaScript · TypeScript</span><a class="card-link" data-project-link hidden target="_blank" rel="noopener noreferrer">Ver projeto <span aria-hidden="true">↗</span></a></article>
+        <article class="card" data-project-url=""><div class="icone banco" aria-hidden="true"><span></span><i></i><i></i></div><h3>Modelagem de banco de dados</h3><p>Exercícios de relacionamentos entre tabelas, chaves primárias e estrangeiras no PostgreSQL.</p><span class="tag">SQL · PostgreSQL</span><a class="card-link" data-project-link hidden target="_blank" rel="noopener noreferrer">Ver projeto <span aria-hidden="true">↗</span></a></article>
       </div>
     </section>
 
-    <section class="contato" id="contato"><div><h2><b></b> Vamos conversar?</h2><p>Estou aberto a trocar conhecimentos, conversar sobre tecnologia e conhecer novas oportunidades.</p></div><div class="contato-links"><a href="mailto:SEU_EMAIL_AQUI">✉ <span><strong>E-mail</strong><small>Adicione seu endereço de e-mail</small></span></a><a href="https://www.linkedin.com/in/matheusselis/" target="_blank" rel="noopener noreferrer">in <span><strong>LinkedIn</strong><small>linkedin.com/in/matheusselis</small></span></a><a href="https://github.com/Matheusselis" target="_blank" rel="noopener noreferrer">◉ <span><strong>GitHub</strong><small>github.com/Matheusselis</small></span></a></div></section>
+    <section class="contato" id="contato"><div><h2><b></b> Vamos conversar?</h2><p>Estou aberto a trocar conhecimentos, conversar sobre tecnologia e conhecer novas oportunidades.</p></div><div class="contato-links"><a class="email-pendente" href="mailto:SEU_EMAIL_AQUI" aria-disabled="true" tabindex="-1" aria-label="E-mail: adicione seu endereço de e-mail">✉ <span><strong>E-mail</strong><small>Adicione seu endereço de e-mail</small></span></a><a href="https://www.linkedin.com/in/matheusselis/" target="_blank" rel="noopener noreferrer" aria-label="Abrir LinkedIn de Matheus Selis">in <span><strong>LinkedIn</strong><small>linkedin.com/in/matheusselis</small></span></a><a href="https://github.com/Matheusselis" target="_blank" rel="noopener noreferrer" aria-label="Abrir GitHub de Matheus Selis">◉ <span><strong>GitHub</strong><small>github.com/Matheusselis</small></span></a></div></section>
   </main>
-  <footer>© 2026 Matheus Selis · Desenvolvido com HTML, CSS e TypeScript.</footer>
+  <footer><span>© 2026 Matheus Selis · Desenvolvido com HTML, CSS e TypeScript.</span><a href="https://github.com/Matheusselis/portfolio-moderno/tree/main" target="_blank" rel="noopener noreferrer">Código-fonte no GitHub ↗</a></footer>
 </body>
 </html>
